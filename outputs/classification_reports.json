@@ -1,0 +1,68 @@
+{
+    "Naive Bayes": {
+        "negative": {
+            "precision": 0.5041551246537396,
+            "recall": 0.9238578680203046,
+            "f1-score": 0.6523297491039427,
+            "support": 197.0
+        },
+        "neutral": {
+            "precision": 0.6046511627906976,
+            "recall": 0.203125,
+            "f1-score": 0.30409356725146197,
+            "support": 128.0
+        },
+        "positive": {
+            "precision": 0.8269230769230769,
+            "recall": 0.3282442748091603,
+            "f1-score": 0.46994535519125685,
+            "support": 131.0
+        },
+        "accuracy": 0.5504385964912281,
+        "macro avg": {
+            "precision": 0.645243121455838,
+            "recall": 0.48507571427648827,
+            "f1-score": 0.47545622384888714,
+            "support": 456.0
+        },
+        "weighted avg": {
+            "precision": 0.625089542699384,
+            "recall": 0.5504385964912281,
+            "f1-score": 0.5021837252449967,
+            "support": 456.0
+        }
+    },
+    "Logistic Regression": {
+        "negative": {
+            "precision": 0.6178010471204188,
+            "recall": 0.5989847715736041,
+            "f1-score": 0.6082474226804123,
+            "support": 197.0
+        },
+        "neutral": {
+            "precision": 0.5035971223021583,
+            "recall": 0.546875,
+            "f1-score": 0.5243445692883895,
+            "support": 128.0
+        },
+        "positive": {
+            "precision": 0.5793650793650794,
+            "recall": 0.5572519083969466,
+            "f1-score": 0.5680933852140078,
+            "support": 131.0
+        },
+        "accuracy": 0.5723684210526315,
+        "macro avg": {
+            "precision": 0.5669210829292188,
+            "recall": 0.5677038933235169,
+            "f1-score": 0.5668951257276033,
+            "support": 456.0
+        },
+        "weighted avg": {
+            "precision": 0.5747018932768073,
+            "recall": 0.5723684210526315,
+            "f1-score": 0.5731602644736625,
+            "support": 456.0
+        }
+    }
+}
